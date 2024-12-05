@@ -8,7 +8,7 @@
             "name": "aspire",
             "type": "dotnet",
             "request": "launch",
-            "projectPath": "${workspaceFolder}/AspireKafka/AspireKafka.csproj"
+            "projectPath": "${workspaceFolder}/AspireKafka.AppHost/AspireKafka.AppHost.csproj"
         }
 
     ]
