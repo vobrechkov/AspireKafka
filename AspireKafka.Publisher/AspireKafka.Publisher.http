@@ -1,0 +1,6 @@
+@AspireKafka.Publisher_HostAddress = http://localhost:5166
+
+POST {{AspireKafka.Publisher_HostAddress}}/send?key=test&value=Hello
+Accept: application/json
+
+###

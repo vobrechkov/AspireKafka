@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "kHuLZPX14PrJGFxEyQDNE0jeFKlyyE+2rK6GK1UYeYs=",
+  "Source": "AspireKafka.Publisher",
+  "BasePath": "_content/AspireKafka.Publisher",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

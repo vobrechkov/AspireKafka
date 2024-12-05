@@ -1,0 +1,6 @@
+@AspireKafka.Subscriber_HostAddress = http://localhost:5028
+
+GET {{AspireKafka.Subscriber_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
