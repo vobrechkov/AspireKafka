@@ -34,7 +34,7 @@ public class Worker(IConsumer<Ignore, string> consumer, ILogger<Worker> logger) 
                 i++;
                 if (i % 1000 == 0)
                 {
-                    logger.LogInformation($"Received {i} messages. current offset is '{result!.Offset}'");
+                    logger.LogInformation("Received {Count} messages. current offset is '{Offset}'.", i, result?.Offset);
                 }
             }
         }, stoppingToken, TaskCreationOptions.LongRunning, TaskScheduler.Current);
